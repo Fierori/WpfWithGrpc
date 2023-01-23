@@ -44,10 +44,10 @@ namespace GrpcGreeterConsoleServer
                     new WrapRectPosition();
 
                 wrapItem.reply.Number = i + 1;
-                wrapItem.reply.X = rnd.Next(0, UsefulConstants.CanvasWidth  - 50);
-                wrapItem.reply.Y = rnd.Next(0, UsefulConstants.CanvasHeight - 50);
                 wrapItem.reply.W = rnd.Next(5, 21);
                 wrapItem.reply.H = rnd.Next(5, 21);
+                wrapItem.reply.X = rnd.Next(0, UsefulConstants.CanvasWidth  - wrapItem.reply.W);
+                wrapItem.reply.Y = rnd.Next(0, UsefulConstants.CanvasHeight - wrapItem.reply.H);
 
                 var abs1 = rnd.Next(2);
                 var abs2 = rnd.Next(2);
