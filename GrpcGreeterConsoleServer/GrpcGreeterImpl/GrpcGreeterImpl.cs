@@ -71,7 +71,7 @@ namespace GrpcGreeterConsoleServer
             }
 
             //innerProccessMovePositions.TurnOff();
-            innerProccessMovePositions.Dispose();
+            //innerProccessMovePositions.Dispose();
         }
     }
 }
