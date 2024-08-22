@@ -70,7 +70,7 @@ namespace WpfWithGrpc
 
         private async void TurnMoveRectangles(object state)
         {
-            bool isEnabled = (bool)state!;
+            //bool isEnabled = (bool)state!;
 
             if ((state is bool isChecked) && isChecked == true)
             {//toggle checked
